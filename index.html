@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kitsa David — Vision, business, innovation et impact.">
+  <title>KITSA DAVID | Vision • Business • Innovation • Impact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#accueil"><span>K</span> KITSA DAVID</a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+      <div class="nav-links">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#vision">Vision</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">ENTREPRENEUR • VISION • IMPACT</p>
+          <h1>Construire une vision qui <em>traverse les frontières.</em></h1>
+          <p class="hero-text">
+            Je développe des projets, des collaborations et des initiatives orientés vers
+            l'innovation, les affaires et l'impact durable en RDC et à l'international.
+          </p>
+          <div class="actions">
+            <a class="btn btn-gold" href="#projets">Découvrir mes projets</a>
+            <a class="btn btn-outline" href="#contact">Parlons business</a>
+          </div>
+          <div class="stats">
+            <div><strong>RDC</strong><span>Base d'action</span></div>
+            <div><strong>International</strong><span>Ouverture</span></div>
+            <div><strong>Long terme</strong><span>Vision</span></div>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="monogram">K<span>D</span></div>
+          <p>“Vision • Discipline • Partenariats • Impact”</p>
+          <small>Personal & Business Profile</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apropos">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <p class="eyebrow">À PROPOS</p>
+          <h2>Une identité construite autour de la vision.</h2>
+        </div>
+        <div class="content reveal">
+          <p>
+            <strong>Kitsa David</strong> développe une identité professionnelle tournée vers
+            l'entrepreneuriat, les partenariats et la création de projets ambitieux.
+          </p>
+          <p>
+            Son approche repose sur la recherche d'opportunités, la collaboration avec des
+            partenaires fiables et la construction progressive de projets à valeur durable.
+          </p>
+          <div class="quote">“Penser grand. Construire avec méthode. Créer de la valeur.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="projets">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">PORTFOLIO</p>
+          <h2>Projets & initiatives</h2>
+          <p>Un portefeuille évolutif de projets et de collaborations.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-number">01</div>
+            <h3>V.B.E.A.</h3>
+            <p>Initiative orientée vers l'assainissement, l'environnement et l'impact communautaire.</p>
+            <span>Environnement • Impact</span>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <h3>Kitsa Limited</h3>
+            <p>Cadre professionnel pour développer des opportunités d'affaires, de coopération et d'investissement.</p>
+            <span>Business • Partenariats</span>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <h3>RDC × International</h3>
+            <p>Créer des passerelles entre entrepreneurs, investisseurs et partenaires autour de projets concrets.</p>
+            <span>Réseau • Coopération</span>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-number">04</div>
+            <h3>Kitsa Luxury Estate</h3>
+            <p>Une vision immobilière premium associant architecture, confort, technologie et sécurité.</p>
+            <span>Immobilier • Lifestyle</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="vision">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">VISION</p>
+          <h2>Des principes simples, une ambition internationale.</h2>
+        </div>
+        <div class="values">
+          <div class="value reveal"><b>01</b><h3>Vision</h3><p>Identifier les opportunités et construire une direction claire.</p></div>
+          <div class="value reveal"><b>02</b><h3>Discipline</h3><p>Transformer les idées en actions structurées et mesurables.</p></div>
+          <div class="value reveal"><b>03</b><h3>Partenariats</h3><p>Développer des relations professionnelles fondées sur la confiance.</p></div>
+          <div class="value reveal"><b>04</b><h3>Impact</h3><p>Créer une valeur qui dépasse le simple projet commercial.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Construisons quelque chose de solide.</h2>
+          <p>Pour une collaboration, un partenariat ou une opportunité d'affaires, contactez-moi.</p>
+        </div>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Votre nom" required>
+          <input type="email" id="email" placeholder="Votre email" required>
+          <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+          <button class="btn btn-gold" type="submit">Envoyer le message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>KITSA DAVID</strong><span>Vision • Business • Innovation • Impact</span></div>
+      <div>© <span id="year"></span> Kitsa David. Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
